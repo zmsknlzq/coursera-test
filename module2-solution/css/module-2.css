@@ -170,6 +170,7 @@ div#section_2 {background-color: white}
 div#section_3 {background-color: black; color: white}
 
 p {
+  position: relative;
   background-color: gray;
   color: red;
   width: auto;
