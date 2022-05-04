@@ -8,11 +8,13 @@
   border: 1px;
   border-color: black;
 }
+
 h1 {
   font-size: 175%;
   font-family: serif;
   background-color: black;
   color: red;
+  align-content: center;
 }
 
 div.title_section {
