@@ -13,7 +13,8 @@ h1 {
   font-family: serif;
   background-color: black;
   color: red;
-  align-items: center;
+  left: auto;
+  right: auto;
   width: 500px;
 }
 
