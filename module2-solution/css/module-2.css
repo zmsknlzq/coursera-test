@@ -17,6 +17,8 @@ h1 {
 }
 
 div.title_section {
+  right: 5px;
+  top: 5px;
   color: black;
   top: 60px;
   right: 60px;
