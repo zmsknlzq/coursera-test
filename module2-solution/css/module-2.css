@@ -6,6 +6,7 @@
   padding: 20px;
   border: 1px;
   border-color: black;
+  text-align: center;
 }
 
 h1 {
@@ -13,9 +14,6 @@ h1 {
   font-family: serif;
   background-color: black;
   color: red;
-  left: auto;
-  right: auto;
-  width: 500px;
 }
 
 div.title_section {
