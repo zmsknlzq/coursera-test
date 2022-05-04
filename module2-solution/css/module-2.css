@@ -2,9 +2,9 @@
 /********** Base styles **********/
 * {
   box-sizing: border-box;
-  margin: 20;
-  padding: 20;
-  border: 1;
+  margin: 20px;
+  padding: 20px;
+  border: 1px;
   border-color: black;
 }
 h1 {
