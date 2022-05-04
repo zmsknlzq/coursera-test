@@ -150,12 +150,18 @@ h1 {
   position: static;
 }
 
-div {position: relative;}
+div {
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
 
 div.title_section {
   text-align: center;
-  right: 5vm;
-  top: 5vm;
+  right: 0vm;
+  top: 0vm;
   font-size: 125%;
   color: black;
 }
