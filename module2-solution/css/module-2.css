@@ -6,7 +6,7 @@
   padding: 20px;
   border: 1px;
   border-color: black;
-  text-align: center;
+
 }
 
 h1 {
@@ -14,14 +14,13 @@ h1 {
   font-family: serif;
   background-color: black;
   color: red;
+  text-align: center;
 }
 
 div.title_section {
   right: 5px;
   top: 5px;
   color: black;
-  top: 60px;
-  right: 60px;
   font-size: 125%;
   font-family: serif;
 }
@@ -39,6 +38,7 @@ p {
   margin-left: auto;
   font-family: Helvetica;
   color: white;
+  text-align: center;
 }
 
 /* Simple Responsive Framework. */
