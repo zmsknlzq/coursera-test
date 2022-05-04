@@ -1,55 +1,10 @@
-
-/********** Base styles **********/
-* {
-  box-sizing: border-box;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid black;
-}
-
-h1 {
-  font-size: 175%;
-  font-family: serif;
-  background-color: black;
-  color: red;
-  text-align: center;
-  position: static;
-}
-
-div {position: relative;}
-
-div.title_section {
-  text-align: center;
-  right: 5px;
-  top: 5px;
-  font-size: 125%;
-  font-family: serif;
-  color: black;
-}
-
-div#section_1 {background-color: gray}
-div#section_2 {background-color: white}
-div#section_3 {background-color: black; color: white}
-
-p {
-  background-color: gray;
-  color: red;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
-  color: white;
-  text-align: center;
-}
-
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
 /********** Large devices only **********/
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
   }
@@ -92,7 +47,7 @@ p {
 }
 
 /********** Medium devices only **********/
-@media (min-width: 769px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -135,7 +90,7 @@ p {
 }
 
 /********** Small devices only **********/
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
@@ -175,4 +130,45 @@ p {
   .col-sm-12 {
     width: 100%;
   }
+}
+
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  margin: 10vm;
+  padding: 4vm;
+  border: 1px solid black;
+  font-family: serif;
+}
+
+h1 {
+  font-size: 175%;
+  background-color: black;
+  color: red;
+  text-align: center;
+  position: static;
+}
+
+div {position: relative;}
+
+div.title_section {
+  text-align: center;
+  right: 5px;
+  top: 5px;
+  font-size: 125%;
+  color: black;
+}
+
+div#section_1 {background-color: pink}
+div#section_2 {background-color: white}
+div#section_3 {background-color: black; color: white}
+
+p {
+  background-color: gray;
+  color: red;
+  width: auto;
+  height: auto;
+  text-align: center;
+  font-size: 2vm;
 }
