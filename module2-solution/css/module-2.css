@@ -159,6 +159,7 @@ div {
 }
 
 div.title_section {
+  float: right;
   text-align: center;
   right: 0vm;
   top: 0vm;
