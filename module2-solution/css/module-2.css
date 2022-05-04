@@ -154,8 +154,8 @@ div {position: relative;}
 
 div.title_section {
   text-align: center;
-  right: 5px;
-  top: 5px;
+  right: 5vm;
+  top: 5vm;
   font-size: 125%;
   color: black;
 }
