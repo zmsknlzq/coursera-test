@@ -22,9 +22,9 @@ div {position: relative;}
 div.title_section {
   right: 5px;
   top: 5px;
-  color: black;
   font-size: 125%;
   font-family: serif;
+  color: black;
 }
 
 div#section_1 {background-color: gray}
