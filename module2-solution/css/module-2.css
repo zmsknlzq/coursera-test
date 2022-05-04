@@ -152,10 +152,6 @@ h1 {
 
 div {
   position: relative;
-  top: auto;
-  bottom: auto;
-  left: auto;
-  right: auto;
 }
 
 div.title_section {
