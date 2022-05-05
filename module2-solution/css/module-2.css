@@ -164,8 +164,8 @@ div.title_section {
   height: fit-content;
   position: relative;
   border: 1px solid black;
-  right: 0px;
-  top: 0px;
+  right: 100%;
+  top: 0;
   font-size: 125%;
   color: black;
 }
