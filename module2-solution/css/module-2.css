@@ -155,7 +155,7 @@ h1 {
 }
 
 div.title_section {
-  position: absolute;
+  position: relative;
   border: 1px solid black;
   right: 0px;
   top: 0px;
