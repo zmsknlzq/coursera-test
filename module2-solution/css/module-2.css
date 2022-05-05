@@ -1,7 +1,7 @@
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  position: relative;
+  position: absolute;
 }
 
 /********** Large devices only **********/
@@ -154,6 +154,12 @@ h1 {
   margin-right: 10px;
 }
 
+div#section {
+  height: auto;
+  width: auto;
+  position: relative;
+}
+
 div.title_section {
   position: relative;
   border: 1px solid black;
@@ -163,9 +169,9 @@ div.title_section {
   color: black;
 }
 
-div#section_1 {background-color: pink}
-div#section_2 {background-color: white}
-div#section_3 {background-color: black; color: white}
+div#Chicken {background-color: pink}
+div#Beef {background-color: white}
+div#Sushi {background-color: black; color: white}
 
 p {
   border: 1px solid black;
