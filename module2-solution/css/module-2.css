@@ -153,11 +153,6 @@ h1 {
   position: static;
 }
 
-div#section {
-  width: inherit;
-  position: relative;
-}
-
 div.title_section {
   width: fit-content;
   height: fit-content;
