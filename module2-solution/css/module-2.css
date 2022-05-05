@@ -1,7 +1,6 @@
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-  position: absolute;
 }
 
 /********** Large devices only **********/
@@ -146,14 +145,16 @@ h1 {
   background-color: black;
   color: red;
   text-align: center;
-  position: static;
   margin-bottom: auto;
+  position: absolute;
 }
+
+div#section {position: absolute;}
 
 div.title_section {
   width: fit-content;
   height: fit-content;
-  position: relative;
+  position: absolute;
   border: 1px solid black;
   right: 0px;
   top: 0px;
