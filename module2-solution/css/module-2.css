@@ -1,6 +1,7 @@
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+  position: relative;
 }
 
 /********** Large devices only **********/
@@ -153,12 +154,11 @@ h1 {
   margin-right: 10px;
 }
 
-div {position: relative;}
-
 div.title_section {
+  position: absolute;
   border: 1px solid black;
-  right: 1%;
-  top: 1%;
+  right: 0px;
+  top: 0px;
   font-size: 125%;
   color: black;
 }
