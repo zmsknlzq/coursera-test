@@ -138,7 +138,6 @@
   box-sizing: border-box;
   padding: 10px;
   font-family: serif;
-  margin-bottom: auto;
 }
 
 h1 {
@@ -149,6 +148,7 @@ h1 {
 }
 
 div.title_section {
+  margin-bottom: 10%;
   width: fit-content;
   height: fit-content;
   border: 1px solid black;
