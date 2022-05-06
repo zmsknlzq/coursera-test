@@ -152,7 +152,7 @@ div.title_section {
   width: fit-content;
   height: fit-content;
   border: 1px solid black;
-  right: 0px;
+  float: right;
   top: 0px;
   font-size: 125%;
   color: black;
