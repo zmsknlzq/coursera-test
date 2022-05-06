@@ -148,9 +148,8 @@ h1 {
   margin-bottom: auto;
 }
 
-div#section {}
-
 div.title_section {
+  position: absolute;
   width: fit-content;
   height: fit-content;
   border: 1px solid black;
