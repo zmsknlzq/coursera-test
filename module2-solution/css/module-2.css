@@ -147,12 +147,16 @@ h1 {
   text-align: center;
 }
 
+div#section {
+  background-color: gray;
+}
+
 div.title_section {
   margin-bottom: 10%;
   width: fit-content;
   height: fit-content;
   border: 1px solid black;
-  float: right;
+  right: 0px;
   top: 0px;
   font-size: 125%;
   color: black;
@@ -165,7 +169,7 @@ div#Sushi {background-color: black; color: white}
 p {
   height: auto;
   border: 1px solid black;
-  background-color: gray;
+  background-color: inherit;
   color: red;
   text-align: justify;
 }
