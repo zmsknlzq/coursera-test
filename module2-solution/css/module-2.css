@@ -150,7 +150,7 @@ h1 {
 div#section {
   background-color: gray;
   border: 1px solid black;
-  margin-right: auto;
+  margin-right: 10px;
 }
 
 div.title_section {
@@ -158,7 +158,7 @@ div.title_section {
   width: fit-content;
   height: fit-content;
   border: 1px solid black;
-  right: 0px;
+  left: 0px;
   top: 0px;
   font-size: 125%;
   color: black;
