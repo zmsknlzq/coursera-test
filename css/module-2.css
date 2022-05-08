@@ -154,11 +154,11 @@ div#section {
 }
 
 div.title_section {
-  margin-bottom: 10%;
+  margin: 2px;
   width: fit-content;
   height: fit-content;
   border: 1px solid black;
-  left: 0px;
+  left: 100%;
   top: 0px;
   font-size: 125%;
   color: black;
